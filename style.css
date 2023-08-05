@@ -33,15 +33,18 @@ body {
   border-radius: 50%;
   border: 3px solid var(--lightest-color);
   margin: 0 auto;
+  background: url("images/pic.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 140%;
 }
 
-.profile-pic {
-  display: block;
+/* .profile-pic {
+  display: inline;
   margin: 0 auto;
   height: 100%;
-  width: 100%;
-  image-rendering: crisp-edges;
-}
+  width: auto;
+} */
 
 a {
   color: var(--lightest-color);
